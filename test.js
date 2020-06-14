@@ -32,11 +32,11 @@ assertEqual(
 
 // Test JSDoc db functions.
 // Here, we can't see what fields that we can fill.
-dbWithOutJsdoc.db.authors.concat({});
+dbWithOutJsdoc.db.authors.push({});
 
 // On the other hand, here, we can see the fields that exist within the type `Author`.
-dbWithJsdoc.db.authors.concat({});
+dbWithJsdoc.db.authors.push({});
 
 // Similarly, we test the same for books.
-dbWithOutJsdoc.db.books.concat({});
-dbWithJsdoc.db.books.concat({});
+dbWithOutJsdoc.db.books.push({});
+dbWithJsdoc.db.books.push({});
