@@ -3,7 +3,7 @@
  * @type {Object}
  * @property {string} id
  * @property {string} name
- * @property {string} address
+ * @property {string} [address]
  */
 
 /**
@@ -11,7 +11,7 @@
  * @type {Object}
  * @property {string} id
  * @property {string} name
- * @property {string} release_date
+ * @property {string} [release_date]
  */
 
 const db = {
